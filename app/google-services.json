@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "933668937490",
+    "project_id": "appclinica-7d3f9",
+    "storage_bucket": "appclinica-7d3f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933668937490:android:19f7e3604dbb7e6f451dcb",
+        "android_client_info": {
+          "package_name": "com.example.appcolegio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB26f9SwuTs_8zoI7XhPimwrss2JGhjY5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

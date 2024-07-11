@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appcolegio">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".utils.appConfig"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppColegio"
+        tools:targetApi="31">
+        <activity
+            android:name=".NuevoLaboratorio"
+            android:exported="false"
+            android:label="@string/title_activity_nuevo_laboratorio"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".LaboratorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatosLaboratorio"
+            android:exported="false" />
+        <activity
+            android:name=".adaptador.VistaLaboratorio"
+            android:exported="false"
+            android:label="@string/title_activity_vista_laboratorio"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".adaptador.LaboratorioAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_laboratorio_adapter"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".entidad.Laboratorio"
+            android:exported="false"
+            android:label="@string/title_activity_laboratorio"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".DatosMedicinas"
+            android:exported="false"
+            android:label="@string/title_activity_datos_medicinas"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NuevaMedicina"
+            android:exported="false" />
+        <activity
+            android:name=".MedicinaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PacientesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".DatosPaciente"
+            android:exported="false"
+            android:label="@string/title_activity_datos_pacientes"
+            android:theme="@style/Theme.AppColegio" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DatosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoPaciente"
+            android:exported="false" />
+    </application>
+
+</manifest>

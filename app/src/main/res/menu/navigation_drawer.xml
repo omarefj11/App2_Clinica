@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_item"
+        android:title="Cliente">
+        <menu>
+            <item
+                android:id="@+id/producto_item"
+                android:checkable="true"
+                android:icon="@drawable/baseline_airline_seat_recline_normal_24"
+                android:title="DOCTORES" />
+            <item
+                android:id="@+id/cliente_item"
+                android:checkable="true"
+                android:icon="@drawable/baseline_attribution_24"
+                android:title="PACIENTES" />
+            <item
+                android:id="@+id/impresora_item"
+                android:checkable="true"
+                android:icon="@drawable/baseline_attribution_24"
+                android:title="MEDICINA" />
+        </menu>
+    </item>
+
+</menu>
